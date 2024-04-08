@@ -1,0 +1,65 @@
+.grid-wrapper {
+  border: 2px solid white; /* White border */
+  border-radius: 10px; /* Rounded border */
+  padding: 20px; /* Space between the border and the grid */
+  background-color: #282c34; /* Same as the page background color */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 15px); /* Creates a 3x3 grid with slightly smaller box size */
+  gap: 2px; /* Space between grid items */
+  background-color: rgba(255, 255, 255, 0.801); /* Set the background color of the container to white */
+  border: 1px solid rgba(255, 255, 255, 0.801); /* Set the border color of the container to white */
+}
+
+.grid-item {
+  background-color: #0a0a0a; /* Dark grey background for grid items */
+  padding: 7px; /* Smaller padding for smaller box size */
+  text-align: center;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.grid-item.blue {
+  background-color: #0068cf; 
+}
+
+
+.grid-item.red{
+  background-color: #ff3937; 
+
+}
+.grid-item.green{
+  background-color: #00c443; 
+
+}
+
+.grid-item.yellow{
+  background-color: #ffd631; 
+
+}
+.grid-item.gray{
+  background-color: #a0a0a0; 
+
+}
+
+.grid-item.pink{
+  background-color: #f916b1; 
+
+}
+.grid-item.orange{
+  background-color: #ff7a2c; 
+
+}
+
+.grid-item.lightblue{
+  background-color: #63d6fc; 
+
+}
+
+.grid-item.darkred{
+  background-color: #820f23; 
+
+}
+
+
