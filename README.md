@@ -6,10 +6,10 @@ Moreover, JavaScript loops and arrays play a crucial role in parsing and display
 Usage and Instructions
 
 To open the game: 
-    Open the terminal.
-    Execute the command npm install.
-    Execute the command cd arcgame.
-    Execute the command npm start.
-    The game will open in a web browser. Select a test file and press "upload json".
+    1- Open the terminal.
+    2- Execute the command npm install.
+    3- Execute the command cd arcgame.
+    4- Execute the command npm start.
+    5- The game will open in a web browser. Select a test file and press "upload json".
 
 
